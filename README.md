@@ -1,33 +1,51 @@
 # MultiWorld - UE4 demo project
 
-This project is a public client demo of the plugin "*[MultiWorld](https://www.unrealengine.com/marketplace/profile/UNAmedia)*" for Unreal Engine 4.
+This project is a public demo of the plugin "*[MultiWorld](https://unrealengine.com/marketplace/multiworld)*" for Unreal Engine 4. Pre-built versions are available in the *Releases* section.
 
 **ATTENTION: a copy of the plugin is required to use this project.**
 
+[MultiWorld](https://unrealengine.com/marketplace/multiworld) is a plugin for Unreal Engine 4 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
+
+[![Watch the video](https://img.youtube.com/vi/P08e0XlLdJU/hqdefault.jpg)](https://youtu.be/P08e0XlLdJU)
+
 ## Links
 
-Marketplace: <https://www.unrealengine.com/marketplace/profile/UNAmedia>
+Marketplace: <https://unrealengine.com/marketplace/multiworld>
 
-Documentation: <https://www.unamedia.com/>
+Documentation: <https://www.unamedia.com/ue4-multiworld/api>
 
-Support thread: <https://forums.unrealengine.com/unreal-engine/marketplace/XXX>
+Video tutorial: <https://youtu.be/P08e0XlLdJU>
+
+Support thread: <https://forums.unrealengine.com/unreal-engine/marketplace/1823908-multiworld-run-different-worlds-in-parallel-with-the-option-to-transfer-players-and-actors>
 
 ## MultiWorld - plugin
 
-**[MultiWorld](https://www.unrealengine.com/marketplace/profile/UNAmedia)** is a runtime plugin for Unreal Engine 4 to <span style="background-color:yellow">...</span>
+[MultiWorld](https://unrealengine.com/marketplace/multiworld) is a plugin for Unreal Engine 4 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
+
+The plugin is compatible with all the major platforms.
 
 ### Features
 
-**[MultiWorld](https://www.unrealengine.com/marketplace/profile/UNAmedia)** plugin provides <span style="background-color:yellow">...</span>
+- unlimited number of independent "Secondary Worlds";
+- any standard UE4 Level/UMAP is compatible as-is with the plugin;
+- the standard UE4 network-replication for multi-player games is supported on the Main World (Secondary Worlds are not replicated);
+- the local player can be moved between Worlds;
+- actors can be transferred between Worlds;
+- Worlds can be independently ticked, also when not shown in the viewport;
+- asynchronous loading of Level/UMAP files;
+- all the features are available from both Blueprints and C++.
+
+**IMPORTANT The plugin has some [technical constraints](https://www.unamedia.com/ue4-multiworld/api/_setup_and_checklist.html), please read about them carefully.**
 
 ## Demo project
 
-This demo supports the following platforms: <span style="background-color:yellow">...</span>
+While the plugin is compatible with all the major target platforms supported by UE4, this demo has been tested only on PC.
 
-It showcases <span style="background-color:yellow">...</span>
+It showcases the following features:
 
-### Third Party contents
-
-The demo makes use of the following materials, refer to their licenses for further reuse:
-
-- <span style="background-color:yellow">...</span>
+- how to load a Secondary World alongside the Main World, and how to switch between them;
+- how to transfer actors and players between differnet worlds;
+- how to spawn actors in worlds other than the active one;
+- how to implement a loading screen;
+- how to implement an "inventory/editor scene" (i.e. an independent 3D level used to change the appearence of the player while keeping alive the Main World);
+- how to use the plugin in a multi-player context.
