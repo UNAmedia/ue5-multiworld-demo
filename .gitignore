@@ -1,0 +1,16 @@
+# File extensions
+*.db
+*.sdf
+*.opensdf
+*.opendb
+*.sln
+*.suo
+*.pdb
+*.log
+# Directories
+.vs
+.vscode
+Binaries
+Build
+Intermediate
+Saved
