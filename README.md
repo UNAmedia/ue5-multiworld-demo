@@ -29,7 +29,7 @@ The plugin is compatible with all the major platforms.
 - unlimited number of independent "Secondary Worlds";
 - any standard UE4 Level/UMAP is compatible as-is with the plugin;
 - the standard UE4 network-replication for multi-player games is supported on the Main World (Secondary Worlds are not replicated);
-- the local player can be moved between Worlds;
+- the local player can be moved between Worlds (supporting also customizable visual transition effects);
 - actors can be transferred between Worlds;
 - Worlds can be independently ticked, also when not shown in the viewport;
 - asynchronous loading of Level/UMAP files;
@@ -44,8 +44,10 @@ While the plugin is compatible with all the major target platforms supported by 
 It showcases the following features:
 
 - how to load a Secondary World alongside the Main World, and how to switch between them;
-- how to transfer actors and players between differnet worlds;
+- how to transfer actors and players between different worlds;
 - how to spawn actors in worlds other than the active one;
 - how to implement a loading screen;
-- how to implement an "inventory/editor scene" (i.e. an independent 3D level used to change the appearence of the player while keeping alive the Main World);
-- how to use the plugin in a multi-player context.
+- how to implement an "inventory/editor scene" (i.e. an independent 3D level used to change the appearance of the player while keeping alive the Main World);
+- how to use the plugin in a multi-player context;
+- how to capture a scene from a Background World and show it in the Active World (*security camera* effect);
+- how to switch the Active World using an animated visual transition effect.
