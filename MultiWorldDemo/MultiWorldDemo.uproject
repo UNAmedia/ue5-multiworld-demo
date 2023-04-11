@@ -152,10 +152,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "GeometryMode",
-			"Enabled": false
-		},
-		{
 			"Name": "GoogleCloudMessaging",
 			"Enabled": false
 		},
@@ -313,15 +309,6 @@
 			"Name": "MultiWorld",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/483ac00af8284f5683b904219c4e9c45"
-		},
-		{
-			"Name": "Bridge",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
 		}
 	]
 }

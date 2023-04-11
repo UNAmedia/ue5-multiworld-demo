@@ -6,7 +6,9 @@ This project is a public demo of the plugin "*[MultiWorld](https://unrealengine.
 
 [MultiWorld](https://unrealengine.com/marketplace/multiworld) is a plugin for Unreal Engine 5 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
 
-[![Watch the video](https://img.youtube.com/vi/P08e0XlLdJU/hqdefault.jpg)](https://youtu.be/P08e0XlLdJU)
+Video tutorial: <https://youtu.be/qVn2TjH8GbA>
+
+[![Watch the video](https://img.youtube.com/vi/qVn2TjH8GbA/hqdefault.jpg)](https://youtu.be/qVn2TjH8GbA)
 
 ## Links
 
@@ -14,7 +16,7 @@ Marketplace: <https://unrealengine.com/marketplace/multiworld>
 
 Documentation: <https://www.unamedia.com/ue5-multiworld/api>
 
-Video tutorial: <https://youtu.be/P08e0XlLdJU>
+Video tutorial: <https://youtu.be/qVn2TjH8GbA>
 
 Support thread: <https://forums.unrealengine.com/unreal-engine/marketplace/1823908-multiworld-run-different-worlds-in-parallel-with-the-option-to-transfer-players-and-actors>
 
@@ -56,4 +58,6 @@ It showcases the following features:
 - how to implement an "inventory/editor scene" (i.e. an independent 3D level used to change the appearance of the player while keeping alive the Main World);
 - how to use the plugin in a multi-player context;
 - how to capture a scene from a Background World and show it in the Active World (*security camera* effect);
-- how to switch the Active World using an animated visual transition effect.
+- how to switch the Active World using an animated visual transition effect;
+- how to use distinct Game Modes in different Worlds;
+- how to simulate a simple Portal effect.
