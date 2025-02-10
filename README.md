@@ -1,10 +1,10 @@
 # MultiWorld - Unreal Engine 5 demo project
 
-This project is a public demo of the plugin "*[MultiWorld](https://unrealengine.com/marketplace/multiworld)*" for Unreal Engine 5. Pre-built versions are available in the *Releases* section.
+This project is a public demo of the plugin "*[MultiWorld](https://www.fab.com/listings/006026b4-9a0b-4f44-a918-a02f7241e997)*" for Unreal Engine 5. Pre-built versions are available in the *Releases* section.
 
 **ATTENTION: a copy of the plugin is required to use this project.**
 
-[MultiWorld](https://unrealengine.com/marketplace/multiworld) is a plugin for Unreal Engine 5 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
+[MultiWorld](https://www.fab.com/listings/006026b4-9a0b-4f44-a918-a02f7241e997) is a plugin for Unreal Engine 5 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
 
 Video tutorial: <https://youtu.be/qVn2TjH8GbA>
 
@@ -12,13 +12,17 @@ Video tutorial: <https://youtu.be/qVn2TjH8GbA>
 
 ## Links
 
-Marketplace: <https://unrealengine.com/marketplace/multiworld>
+Fab Marketplace: <https://www.fab.com/listings/006026b4-9a0b-4f44-a918-a02f7241e997>
 
 Documentation: <https://www.unamedia.com/ue5-multiworld/api>
 
 Video tutorial: <https://youtu.be/qVn2TjH8GbA>
 
-Support thread: <https://forums.unrealengine.com/unreal-engine/marketplace/1823908-multiworld-run-different-worlds-in-parallel-with-the-option-to-transfer-players-and-actors>
+Discord server: <https://discord.gg/PuAyhDctHp>
+
+[![Join the Discord server](https://invidget.switchblade.xyz/PuAyhDctHp)](https://discord.gg/PuAyhDctHp)
+
+Support thread: <https://forums.unrealengine.com/t/multiworld-run-different-worlds-in-parallel-with-the-option-to-transfer-players-and-actors/152413>
 
 ## Branches
 
@@ -28,7 +32,7 @@ You can find the old projects for the other supported versions of Unreal Engine 
 
 ## MultiWorld - plugin
 
-[MultiWorld](https://unrealengine.com/marketplace/multiworld) is a plugin for Unreal Engine 5 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
+[MultiWorld](https://www.fab.com/listings/006026b4-9a0b-4f44-a918-a02f7241e997) is a plugin for Unreal Engine 5 to handle multiple independent `UWorld` instances simultaneously. You can run several worlds in parallel, each one with completely isolated actors and components (and so with independent graphics, audio, physics, collisions, UI, etc), with the option to transfer the player and other actors between the worlds.
 
 The plugin is compatible with all the major platforms.
 
